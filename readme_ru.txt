@@ -4,6 +4,7 @@
 
 После этого виджет можно использовать так:
 
+~~~~
 <?php
 
 class SiteController extends Controller
@@ -19,7 +20,10 @@ class SiteController extends Controller
     }
 // ...
 }
+~~~~
 И в представлении:
+
+~~~~
 <?php
 $this->widget('application.my.form.widgets.elfinder.ElFinderWidget',array(
 	'lang'=>'ru',
@@ -33,5 +37,5 @@ $this->widget('application.my.form.widgets.elfinder.ElFinderWidget',array(
     }',
 //            'htmlOptions'=>array('style'=>'height:500px'),
 ));
-
+~~~~
 Внимание, код указан на примере использования с расширением ECKEditor
