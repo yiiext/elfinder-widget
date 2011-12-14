@@ -4,7 +4,7 @@
 
 После этого виджет можно использовать так:
 
-~~~~
+~~~php
 <?php
 
 class SiteController extends Controller
@@ -23,7 +23,7 @@ class SiteController extends Controller
 ~~~~
 И в представлении:
 
-~~~~
+~~~php
 <?php
 $this->widget('application.my.form.widgets.elfinder.ElFinderWidget',array(
 	'lang'=>'ru',
